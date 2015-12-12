@@ -11,7 +11,7 @@ var config = {
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
             lang: 'en',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            APPID: 'c90d643e4cdcbee39c14c2e82cc25a52'
         }
     },
     compliments: {
@@ -21,10 +21,10 @@ var config = {
             'こんにちは'
         ],
         afternoon: [
-            'こんにちは'
+            '今晩は'
         ],
         evening: [
-            'こんにちは'
+            'ねむいですね'
         ]
     },
     calendar: {
