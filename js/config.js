@@ -18,19 +18,13 @@ var config = {
         interval: 30000,
         fadeInterval: 4000,
         morning: [
-            'Good morning, handsome!',
-            'Enjoy your day!',
-            'How was your sleep?'
+            'こんにちは'
         ],
         afternoon: [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            'こんにちは'
         ],
         evening: [
-            'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            'こんにちは'
         ]
     },
     calendar: {
