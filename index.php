@@ -21,18 +21,34 @@
 
 </div>
 
+<!-- ============== Javascript from Magic Mirrior ============ -->
 <script src="js/jquery.js"></script>
-<script src="js/jquery.feedToJSON.js"></script>
+
+<!-- This is used for parsing news feed, but I do not use it -->
+<!-- <script src="js/jquery.feedToJSON.js"></script> -->
 <script src="js/ical_parser.js"></script>
 <script src="js/moment-with-locales.min.js"></script>
+
+<!-- This has the configurations for language, compliments, and weather stuff -->
 <script src="js/config.js"></script>
-<script src="js/rrule.js"></script>
+
+<!-- Not sure what this is.. don't think I use it though -->
+<!-- <script src="js/rrule.js"></script> -->
+
+<!-- Used to check for git updates if there are any -->
 <script src="js/version/version.js" type="text/javascript"></script>
+
+<!-- Used for the calendar thing that I DO NOT use currently -->
 <script src="js/calendar/calendar.js" type="text/javascript"></script>
+
+<!-- Used for updating hte "compliments" every few seconds -->
 <script src="js/compliments/compliments.js" type="text/javascript"></script>
+<!-- Used for the weather -->
 <script src="js/weather/weather.js" type="text/javascript"></script>
+<!-- Used for the clock -->
 <script src="js/time/time.js" type="text/javascript"></script>
-<script src="js/news/news.js" type="text/javascript"></script>
+<!-- ============== Magic Mirror up to here ================= -->
+
 <script src="js/main.js?nocache=<?php echo md5(microtime()) ?>"></script>
 <!-- <script src="js/socket.io.min.js"></script> -->
 
