@@ -14,10 +14,18 @@
 		if (annyang) {
 		// Let's define our first command. First the text we expect, and then the function it     should call
 		var commands = {
-		'word': function() {
-		  alert("hello");
+		'おはよう': function() {
+		  alert("おはよう");
+		},
+		'おやすみ': function() {
+		  alert("おやすみ");
+		},
+		'ごはん': function() {
+		  alert("ごはん");
 		}
 		};
+
+		annyang.setLanguage('ja');
 
 		// Initialize annyang with our commands
 		annyang.init(commands);
