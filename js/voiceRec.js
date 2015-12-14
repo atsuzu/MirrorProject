@@ -9,13 +9,13 @@ var commands = {
 		changeDisplay('おはよう');
 	},
 	'音楽 止めて': function() {
-		changeDisplay('音楽 止めて');
+		changeDisplay('音楽止めて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
 		widget.pause();
 	},
 	'音楽 初めて': function() {
-	  	changeDisplay('音楽かけて');
+	  	changeDisplay('音楽初めて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
 		widget.play();
