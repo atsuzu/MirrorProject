@@ -1,18 +1,32 @@
+
+
 if (annyang) {
+
 // Let's define our first command. First the text we expect, and then the function it     should call
 var commands = {
-'おはよう': function() {
-  changeDisplay('おはよう');
-},
-'おやすみ': function() {
-  changeDisplay('おやすみ');
-},
-'ごはん': function() {
-  changeDisplay('ごはん');
-}
-};
 
-annyang.setLanguage('ja');
+	'おはよう': function() {
+		changeDisplay('おはよう');
+	},
+	'音楽 止めて': function() {
+		changeDisplay('音楽 止めて');
+		var widgetIframe = document.getElementById('sc-widget'),
+		widget       = SC.Widget(widgetIframe);
+		widget.pause();
+	},
+	'音楽 初めて': function() {
+	  	changeDisplay('音楽かけて');
+		var widgetIframe = document.getElementById('sc-widget'),
+		widget       = SC.Widget(widgetIframe);
+		widget.play();
+	}
+	};
+
+	annyang.setLanguage('ja');
+
+	annyang.addCallback('resultNoMatch', function() {
+		changeDisplay('そのコマンドは無いです（笑）');
+	});
 
 // Initialize annyang with our commands
 annyang.init(commands);

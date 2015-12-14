@@ -16,7 +16,7 @@
 
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div></div>
 	<div class="center-hor top">
-		<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/175250617" width="30%" height="300" scrolling="no" frameborder="no"></iframe>
+		<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/175250617" width="30%" height="300" scrolling="yes" frameborder="no"></iframe>
 	</div>
 	<div class="top right"><div class="windsun small dimmed"></div><div class="temp"></div><div class="forecast small dimmed"></div></div>
 	<div class="center-ver center-hor"></div>
