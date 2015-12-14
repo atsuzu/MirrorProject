@@ -15,19 +15,26 @@
 <body>
 
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div></div>
+	<div class="center-hor top">
+		<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/175250617" width="30%" height="300" scrolling="no" frameborder="no"></iframe>
+	</div>
 	<div class="top right"><div class="windsun small dimmed"></div><div class="temp"></div><div class="forecast small dimmed"></div></div>
 	<div class="center-ver center-hor"></div>
 	<div class="lower-third center-hor"><div class="compliment light"></div></div>
 	<!-- <div class="bottom center-hor"><div class="news medium"></div></div> -->
-	<div class="higher-third center-hor"><p id = "p1"></p></div>
+	<div class="bottom center-hor"><p id = "p1"></p></div>
 
 </div>
 
 <!-- ============== Javascript from Voice Recognition Credits to Annyang ============ -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.0.0/annyang.min.js"></script>
-<script src="js/voiceRec.js"></script>
+<script src="js/voiceRec.js" type="text/javascript"></script>
 <!-- ============== Voice Recognition up to here ================= -->
 
+<!-- ============== Javascript from Sound Cloud ============ -->
+<script src="https://w.soundcloud.com/player/api.js"></script>
+<script src="js/soundCloud.js" type="text/javascript"></script>
+<!-- ============== Sound Cloud up to here ================= -->
 
 <!-- ============== Javascript from Magic Mirrior ============ -->
 <script src="js/jquery.js"></script>
