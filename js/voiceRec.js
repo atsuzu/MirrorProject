@@ -8,19 +8,19 @@ var commands = {
 	'おはよう': function() {
 		changeDisplay('おはよう');
 	},
-	'音楽 止めて': function() {
+	'音楽止めて': function() {
 		changeDisplay('音楽止めて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
 		widget.pause();
 	},
-	'音楽 初めて': function() {
+	'音楽初めて': function() {
 	  	changeDisplay('音楽始めて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
 		widget.play();
 	},
-	'音楽 飛ばして': function() {
+	'音楽飛ばして': function() {
 	  	changeDisplay('音楽飛ばして');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
