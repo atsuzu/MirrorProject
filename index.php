@@ -8,6 +8,26 @@
 	<script type="text/javascript">
 		var gitHash = '<?php echo trim(`git rev-parse HEAD`) ?>';
 	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.0.0/annyang.min.js"></script>
+	<script>
+		if (annyang) {
+		// Let's define our first command. First the text we expect, and then the function it     should call
+		var commands = {
+		'word': function() {
+		  alert("hello");
+		}
+		};
+
+		// Initialize annyang with our commands
+		annyang.init(commands);
+
+		// Start listening. You can call this here, or attach this call to an event, button, etc.
+		alert("starting");
+		annyang.start();
+		}
+	</script>
+
 	<meta name="google" value="notranslate" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
