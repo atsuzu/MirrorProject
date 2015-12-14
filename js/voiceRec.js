@@ -19,8 +19,19 @@ var commands = {
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
 		widget.play();
-	}
-	};
+	},
+	'音楽 飛ばして': function() {
+	  	changeDisplay('音楽飛ばして');
+		var widgetIframe = document.getElementById('sc-widget'),
+		widget       = SC.Widget(widgetIframe);
+		    var ranIndex = Math.floor(Math.random() * 100);
+
+	    widget.getCurrentSoundIndex(function(index) {
+	        var newPosition = (ranIndex + index) % 100;
+	        widget.skip(newPosition);
+	    });
+	}	
+};
 
 	annyang.setLanguage('ja');
 
