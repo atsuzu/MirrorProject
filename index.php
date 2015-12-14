@@ -9,32 +9,6 @@
 		var gitHash = '<?php echo trim(`git rev-parse HEAD`) ?>';
 	</script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.0.0/annyang.min.js"></script>
-	<script>
-		if (annyang) {
-		// Let's define our first command. First the text we expect, and then the function it     should call
-		var commands = {
-		'おはよう': function() {
-		  alert("おはよう");
-		},
-		'おやすみ': function() {
-		  alert("おやすみ");
-		},
-		'ごはん': function() {
-		  alert("ごはん");
-		}
-		};
-
-		annyang.setLanguage('ja');
-
-		// Initialize annyang with our commands
-		annyang.init(commands);
-
-		// Start listening. You can call this here, or attach this call to an event, button, etc.
-		annyang.start();
-		}
-	</script>
-
 	<meta name="google" value="notranslate" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
@@ -45,8 +19,15 @@
 	<div class="center-ver center-hor"></div>
 	<div class="lower-third center-hor"><div class="compliment light"></div></div>
 	<!-- <div class="bottom center-hor"><div class="news medium"></div></div> -->
+	<div class="higher-third center-hor"><p id = "p1"></p></div>
 
 </div>
+
+<!-- ============== Javascript from Voice Recognition Credits to Annyang ============ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.0.0/annyang.min.js"></script>
+<script src="js/voiceRec.js"></script>
+<!-- ============== Voice Recognition up to here ================= -->
+
 
 <!-- ============== Javascript from Magic Mirrior ============ -->
 <script src="js/jquery.js"></script>
