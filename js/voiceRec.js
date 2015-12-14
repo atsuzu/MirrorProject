@@ -15,7 +15,7 @@ var commands = {
 		widget.pause();
 	},
 	'音楽 初めて': function() {
-	  	changeDisplay('音楽初めて');
+	  	changeDisplay('音楽始めて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
 		widget.play();
