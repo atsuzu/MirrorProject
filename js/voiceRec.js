@@ -40,7 +40,7 @@ var commands = {
 		widget       = SC.Widget(widgetIframe);
 
 	    widget.getVolume(function(volume) {
-	    	compResponse("ボリュームは" + volume "です！");
+	    	compResponse("ボリュームは" + volume + "です！");
 	    });
 	},
 	'ボリューム上げて': function() {
