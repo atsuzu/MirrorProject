@@ -12,7 +12,6 @@ version.checkVersion = function () {
 		type: 'GET',
 		url: 'githash.php',
 		dataType: 'json',
-		data: data,
 		success: function (data) {
 			// The githash variable is located in index.php
 			alert(data.gitHash + ' vs ' + gitHash);
