@@ -14,14 +14,14 @@ version.checkVersion = function () {
 		dataType: 'json',
 		success: function (data) {
 			// The githash variable is located in index.php
-			alert(data.gitHash + ' vs ' + gitHash);
+			//alert(data.gitHash + ' vs ' + gitHash);
 			if (data && data.gitHash !== gitHash) {
 				window.location.reload();
 				window.location.href = window.location.href;
 			}
 		},
 		error: function () {
-			alert("Git update Failed?");
+			//alert("Git update Failed?");
 		}
 	});
 
