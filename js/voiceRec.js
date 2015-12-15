@@ -12,14 +12,14 @@ var commands = {
 		changeDisplay('音楽止めて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
-		compResponse("音楽始めました！");
+		compResponse("音楽止めました！");
 		widget.pause();
 	},
 	'音楽初めて': function() {
 	  	changeDisplay('音楽始めて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
-		compResponse("音楽止めました！");
+		compResponse("音楽始めました！");
 		widget.play();
 	},
 	'音楽飛ばして': function() {
