@@ -81,6 +81,7 @@ var commands = {
 
 	annyang.addCallback('resultNoMatch', function(text) {
 		compResponse('そんなコマンド無いです！');
+		changeDisplay(text);
 	});
 
 	annyang.addCallback('result', function(text) {
