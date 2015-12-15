@@ -19,7 +19,7 @@ version.checkVersion = function () {
 			}
 		},
 		error: function () {
-
+			alert("Git update Failed?");
 		}
 	});
 
