@@ -16,13 +16,13 @@
 
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div></div>
 	<div class="center-hor top">
-		<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/175250617" width="30%" height="300" scrolling="yes" frameborder="no"></iframe>
+		<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/175250617" width="30%" height="200" scrolling="yes" frameborder="no"></iframe>
 	</div>
 	<div class="top right"><div class="windsun small dimmed"></div><div class="temp"></div><div class="forecast small dimmed"></div></div>
 	<div class="center-ver center-hor"></div>
-	<div class="lower-third center-hor"><div class="compliment light" id="compSpeaking"></div></div>
+	<div class="higher-fourth center-hor"><div class="compliment light" id="compSpeaking"></div></div>
 	<!-- <div class="bottom center-hor"><div class="news medium"></div></div> -->
-	<div class="bottom center-hor"><p id = "p1"></p></div>
+	<div class="lower-fourth center-hor"><p id = "command"></p></div>
 
 </div>
 

@@ -44,19 +44,19 @@ body, html {
 	line-height: 100px;
 }
 
-.higher-third
+.higher-fourth
 {
 	position: absolute;
-	top: 33.333%;
+	top: 40%;
 	height: 100px;
 	margin-top: -100px;
 	line-height: 100px;	
 }
 
-.lower-third
+.lower-fourth
 {
 	position: absolute;
-	top: 66.666%;
+	top: 50%;
 	height: 200px;
 	margin-top: -100px;
 	line-height: 100px;	
@@ -239,3 +239,6 @@ body, html {
   font-weight:  200;
 }
 
+#command {
+	font-size: 30px;
+}
