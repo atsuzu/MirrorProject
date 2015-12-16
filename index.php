@@ -62,7 +62,7 @@
 <script src="js/calendar/calendar.js" type="text/javascript"></script>
 
 <!-- Used for updating hte "compliments" every few seconds -->
-<script src="js/compliments/compliments.js" type="text/javascript"></script>
+<!-- <script src="js/compliments/compliments.js" type="text/javascript"></script> -->
 <!-- Used for the weather -->
 <script src="js/weather/weather.js" type="text/javascript"></script>
 <!-- Used for the clock -->
