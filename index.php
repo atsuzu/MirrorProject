@@ -23,6 +23,7 @@
 	<div class="higher-fourth center-hor"><div class="compliment light" id="compSpeaking"></div></div>
 	<!-- <div class="bottom center-hor"><div class="news medium"></div></div> -->
 	<div class="lower-fourth center-hor"><p id = "command"></p></div>
+	<div class="bottom center-hor "><img class="myImageHolder" src="characterImages/walk/1walk.png"></div>
 
 </div>
 
@@ -35,6 +36,10 @@
 <script src="https://w.soundcloud.com/player/api.js"></script>
 <script src="js/soundCloud.js" type="text/javascript"></script>
 <!-- ============== Sound Cloud up to here ================= -->
+
+<!-- ============== Javascript Character ============ -->
+<script src="js/character/character.js" type="text/javascript"></script>
+<!-- ============== Character up to here ================= -->
 
 <!-- ============== Javascript from Magic Mirrior ============ -->
 <script src="js/jquery.js"></script>
