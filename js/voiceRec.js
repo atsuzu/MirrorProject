@@ -100,5 +100,5 @@ var compResponse = function(text) {
 }
 
 var changeDisplay = function(text) {
-	document.getElementById("command").innerHTML = 'コマンド: ' + text;
+	document.getElementById("command").innerHTML = 'Command: ' + text;
 }
