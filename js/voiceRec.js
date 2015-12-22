@@ -55,7 +55,7 @@ var commands = {
 	    });
 	},
 	'ボリューム下げて': function() {
-	  	changeDisplay('ボリューム　上げて');
+	  	changeDisplay('ボリューム　下げて');
 		var widgetIframe = document.getElementById('sc-widget'),
 		widget       = SC.Widget(widgetIframe);
 	    

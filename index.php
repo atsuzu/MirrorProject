@@ -12,7 +12,7 @@
 	<meta name="google" value="notranslate" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
-<body>
+<body id="body" onload="init();">
 
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div></div>
 	<div class="center-hor top">
@@ -23,7 +23,10 @@
 	<div class="higher-fourth center-hor"><div class="compliment light" id="compSpeaking"></div></div>
 	<!-- <div class="bottom center-hor"><div class="news medium"></div></div> -->
 	<div class="lower-fourth center-hor"><p id = "command"></p></div>
-	<div class="bottom center-hor "><img class="myImageHolder" src="characterImages/walk/1walk.png"></div>
+	<!-- <div class="bottom center-hor "><img class="myImageHolder" src="characterImages/walk/1walk.png"></div> -->
+
+	<canvas id="myCanvas"  style="border:1px solid #d3d3d3;" class="bottom"> Your browser does not support the HTML5 canvas tag.</canvas>
+
 
 </div>
 
@@ -39,6 +42,8 @@
 
 <!-- ============== Javascript Character ============ -->
 <script src="js/character/character.js" type="text/javascript"></script>
+<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
 <!-- ============== Character up to here ================= -->
 
 <!-- ============== Javascript from Magic Mirrior ============ -->
