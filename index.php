@@ -13,7 +13,8 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
 <body id="body" onload="init();">
-
+	
+<div class = "top-layer">
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div></div>
 	<div class="center-hor top">
 		<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/175250617" width="30%" height="200" scrolling="yes" frameborder="no"></iframe>
@@ -24,7 +25,7 @@
 	<!-- <div class="bottom center-hor"><div class="news medium"></div></div> -->
 	<div class="lower-fourth center-hor"><p id = "command"></p></div>
 	<!-- <div class="bottom center-hor "><img class="myImageHolder" src="characterImages/walk/1walk.png"></div> -->
-
+</div>
 	<canvas id="myCanvas"  style="border:1px solid #d3d3d3;" class="bottom"> Your browser does not support the HTML5 canvas tag.</canvas>
 
 
